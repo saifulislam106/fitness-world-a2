@@ -11,7 +11,7 @@
     color: rgb(255, 255, 255);
     font-size: 18px;
     font-weight: 600;
-    padding: 1rem 2.5rem 1rem 2.5rem;
+    padding: 1rem 2rem 1rem 2rem;
     border-radius: 2.6rem;
     background: rgb(230, 83, 60);
     border: none;
@@ -21,7 +21,7 @@
     color: rgb(255, 255, 255);
     font-size: 18px;
     font-weight: 600;
-    padding: 1rem 2.5rem 1rem 2.5rem;
+    padding: 1rem 2rem 1rem 2rem;
     border-radius: 2.6rem;
     background: #000;
 }
@@ -167,7 +167,7 @@ a:hover {
     background: rgba(255, 255, 255, 0.1);
     position: absolute;
     bottom: 5rem;
-    left: -3rem;
+    left: -1rem;
     ;
 }
 
