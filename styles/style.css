@@ -277,6 +277,9 @@ a:hover {
 
 /* mobile reaponsive */
 @media screen and (max-width:576px) {
+    *{
+        margin: 0 auto;
+    }
     nav ul {
         display: none;
     }
