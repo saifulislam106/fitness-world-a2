@@ -208,50 +208,66 @@ a:hover {
 }
 
 .run-section img {
+    border-radius: 1.5rem;
     width: 100%;
 }
 
 .run-img {
     width: 40%;
+
 }
 
 
 
 /* meet feature styles  */
 .meet-feature {
-    max-width: 1120px;
+    max-width: 1080px;
     margin: 3rem auto;
+}
+
+.tainer-bg-container {
+    padding: 1.2rem;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 1.1rem;
+    margin-top: 2rem;
+
 }
 
 .tainer-img-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    border-radius: 1.1rem;
     gap: 1rem;
-    padding: 1.2rem;
-    background: rgba(255, 255, 255, 0.1);
 }
-.tainer-img img{
+.tainer-img{
+    position: relative;
+    
+
+}
+.tainer-img img {
     width: 100%;
     height: 18rem;
     border-radius: 1.1rem;
 }
 
+.tainer-content {
+    position: absolute;
+    top: 12rem;
+}
 
-.tainer-img h4{
+.tainer-img h4 {
     /* margin-bottom: -5rem; */
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 800;
     color: rgb(255, 255, 255);
-    margin-left: 2rem;
+    margin-left: 1.5rem;
 }
- 
-.tainer-img p{
+
+.tainer-img p {
     font-size: 1.1rem;
     font-weight: 400;
     color: rgba(255, 255, 255, 0.5);
     margin-top: .6rem;
-    margin-left: 2rem;
+    margin-left: 1.5rem;
 }
 
 
@@ -265,12 +281,12 @@ a:hover {
         display: none;
     }
 
-    .bennar .run-section {
+    .bennar {
         flex-direction: column;
         gap: 1rem;
     }
 
-    .crad-container .tainer-img-container {
+    .crad-container {
         grid-template-columns: repeat(1, 1fr);
         gap: .5rem;
     }
@@ -285,8 +301,32 @@ a:hover {
     .crad-container img {
         width: 50%;
     }
-    .run-section .btn-primary{
+
+
+    .run-section {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .run-section .btn-container {
         width: full;
+        text-align: center;
+        color: rgb(255, 255, 255);
+        font-size: 18px;
+        font-weight: 600;
+        border-radius: 2rem;
+        background: rgb(230, 83, 60);
+
+    }
+
+    .run-img {
+        width: 100%;
+        margin-top: 2rem;
+    }
+
+    .tainer-img-container {
+        grid-template-columns: repeat(1, 1fr);
+
     }
 
 }
