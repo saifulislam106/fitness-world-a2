@@ -101,6 +101,9 @@ a:hover {
     background: rgb(230, 83, 60);
 }
 
+.menubar{
+    display: none;
+}
 
 
 
@@ -359,6 +362,37 @@ td {
     margin-left: 1.5rem;
 }
 
+/* registation styles  */
+.registation-section{
+    max-width: 1080px;
+    margin: 4rem auto;
+}
+.registation-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+form{
+    width: 50%;
+}
+form h2 {
+    margin-bottom: 2rem;
+}
+form input{
+    width: 80%;
+    margin: 1rem 0;
+    border-radius: .5rem;
+    padding: .6rem;
+    border: none;
+    background: rgba(255, 255, 255, 0.1);
+}
+.registation-img{
+    width: 50%;
+}
+
+.registation-img img{
+    width: 100%;
+}
 
 
 
@@ -403,7 +437,7 @@ footer {
 }
 
 .menu-container ul {
-    padding-top: 2rem;
+    padding-top: 1rem;
 }
 
 .menu-container ul li {
@@ -432,6 +466,11 @@ footer {
 
     nav ul {
         display: none;
+    }
+
+    .menubar{
+        display: block;
+        font-size: 1.5rem;
     }
 
     .bennar {
@@ -514,6 +553,16 @@ footer {
         width: 100%;
     }
     .input{
-        width: 44%;
+        width: 98%;
+        margin-bottom: .5rem;
     }
+    .select-1, form, .registation-img{
+        width: 100%;
+    }
+
+    .registation-container{
+        flex-direction: column;
+        gap: 2rem;
+    }
+
 }
